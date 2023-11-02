@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defc8631-d00b-4a37-af8d-d85bb963e275" name="Changes" comment="Gestor de Juegos con Hibernate.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coleccionjuegos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/GameDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/pacod/IdeaProjects/GestorJuegos/src/main/java/com/example/gestorjuegos/domain/juego",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +114,7 @@
       <updated>1698744304306</updated>
       <workItem from="1698744305346" duration="2108000" />
       <workItem from="1698865484947" duration="1211000" />
-      <workItem from="1698916261182" duration="8905000" />
+      <workItem from="1698916261182" duration="10962000" />
     </task>
     <task id="LOCAL-00001" summary="Gestor de Juegos con Hibernate.">
       <option name="closed" value="true" />
@@ -126,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698928280156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Gestor de Juegos con Hibernate.">
+      <option name="closed" value="true" />
+      <created>1698929832031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698929832031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

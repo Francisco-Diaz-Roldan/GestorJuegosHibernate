@@ -2,6 +2,7 @@ package com.example.gestorjuegos.controllers;
 
 import com.example.gestorjuegos.App;
 import com.example.gestorjuegos.Session;
+import com.example.gestorjuegos.domain.juego.GameDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -20,6 +21,7 @@ public class MainViewController implements Initializable
 
     @javafx.fxml.FXML
     public void salir(ActionEvent actionEvent) {
+        Session.setCurrentUser(null);
         try{
             App.changeScene("login-view.fxml", "login");
         } catch (IOException e) {
@@ -31,5 +33,6 @@ public class MainViewController implements Initializable
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         info.setText((Session.getCurrentUser().toString()));
+        (new GameDAO()).getAllFromUser(Session.getCurrentUser()).forEach(System.out::println);//Veo todos los juegos de ese usuario en sesion
     }
 }

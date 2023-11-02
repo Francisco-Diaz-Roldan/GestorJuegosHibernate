@@ -12,6 +12,8 @@ module com.example.gestorjuegos {
     requires java.sql;//Este es por si trabajamos con fechas
 
     opens com.example.gestorjuegos.domain.usuario;
+    opens com.example.gestorjuegos.domain.juego;//Añado esto tras añadir la clase Juego
+
     opens com.example.gestorjuegos to javafx.fxml;
     opens com.example.gestorjuegos.controllers to javafx.fxml;
 

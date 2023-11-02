@@ -17,6 +17,7 @@
         <property name="show_sql">true</property>
 
         <mapping class="com.example.gestorjuegos.domain.usuario.User"/><!--Aqui ponemos tantas clases como queramos mapear-->
+        <mapping class="com.example.gestorjuegos.domain.juego.Game"/><!--Aqui añado la clase Game-->
 
     </session-factory>
 
