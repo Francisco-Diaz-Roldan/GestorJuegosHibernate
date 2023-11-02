@@ -55,7 +55,7 @@ public class LoginController implements Initializable {
                 /*Guardar usuario en sesión e ir a la próxima ventana*/
 
                 try{
-                    App.changeScene("login-view.fxml", "login");
+                    App.changeScene("main-view.fxml", "Coleccion de Videojuegos");
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
