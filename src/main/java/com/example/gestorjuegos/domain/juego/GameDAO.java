@@ -14,7 +14,8 @@ public class GameDAO implements DAO<Game> {
         return null;
     }
 
-    public ArrayList<Game> getAllFromUser(User u) {
+   /* Esto es para cuando hacemos la relacion a mano pero como lo hace hibernate no es necesario
+   public ArrayList<Game> getAllFromUser(User u) {
         ArrayList<Game> results = new ArrayList<>(0);
 
         try(Session s = HibernateUtil.getSessionFactory().openSession()){
@@ -23,7 +24,7 @@ public class GameDAO implements DAO<Game> {
             results = (ArrayList<Game>) q.getResultList();
         }
         return results;
-    }
+    }*/
 
     @Override
     public Game get(Long id) {

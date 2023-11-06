@@ -44,6 +44,7 @@ public class UserDAO implements DAO<User> {//Le implemento la interfaz DAO y le 
                 try {
                     result = q.getSingleResult();
                 } catch (Exception e) {//También vale catch (Exception ignore)
+                    System.out.println(e.getMessage());
                 }
         }
             return result;

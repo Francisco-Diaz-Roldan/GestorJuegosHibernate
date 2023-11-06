@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defc8631-d00b-4a37-af8d-d85bb963e275" name="Changes" comment="Gestor de Juegos con Hibernate.">
-      <change afterPath="$PROJECT_DIR$/Coleccionjuegos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/GameDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/GameDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/juego/GameDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/usuario/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/usuario/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/usuario/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestorjuegos/domain/usuario/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestorjuegos/views/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gestorjuegos/views/main-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Francisco-Diaz-Roldan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Francisco-Diaz-Roldan&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -71,7 +74,8 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "mysql"
+      "mysql",
+      "mariadb"
     ]
   }
 }]]></component>
@@ -114,7 +118,9 @@
       <updated>1698744304306</updated>
       <workItem from="1698744305346" duration="2108000" />
       <workItem from="1698865484947" duration="1211000" />
-      <workItem from="1698916261182" duration="10962000" />
+      <workItem from="1698916261182" duration="11908000" />
+      <workItem from="1699013002228" duration="1018000" />
+      <workItem from="1699261522600" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="Gestor de Juegos con Hibernate.">
       <option name="closed" value="true" />
@@ -140,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698929832031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Gestor de Juegos con Hibernate.">
+      <option name="closed" value="true" />
+      <created>1698930589321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698930589321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
